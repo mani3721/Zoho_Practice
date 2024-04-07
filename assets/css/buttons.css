@@ -1,0 +1,25 @@
+/* common button style */
+.btn {
+    outline: none;
+    border: none;
+    user-select: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: var(--c-white);
+    transition: var(--default-trans);
+    border-radius: var(--br-radius-sm);
+    cursor: pointer;
+}
+
+.btn-lg {
+    padding: 15px 40px;
+}
+
+.btn-md {
+    padding: 10px 20px;
+}
+
+.btn-sm {
+    background-color: bisque;
+}

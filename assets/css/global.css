@@ -1,0 +1,45 @@
+:root {
+    --w-full: 100%;
+    --w-screen : 100vw;
+    --h-full: 100%;
+    --h-screen : 100vh;
+    --h-header: 90px;
+    --br-radius-sm : 5px;
+    --br-radius-md : 10px;
+    --br-radius-lg : 20px;
+    --br-radius-full : 100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-regular);
+    /* background-color: var(--c-primary); */
+}
+
+h1 { font-size: 80px; }
+h2 { font-size: 25px; }
+h3 { font-size: 20px; }
+h4 { font-size: 15px; }
+h5 { font-size: 10px; }
+h6 { font-size: 5px; }
+
+ul li { list-style: none; }
+a { text-decoration: none; }
+a:hover { cursor: pointer; }
+
+/****************************/
+/* REUSABLE COMPONENTS */
+/****************************/
+
+.container  {
+    max-width: 1170px;
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+
+/* \\END OF CONTAINER */

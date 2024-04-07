@@ -1,0 +1,68 @@
+/* font sizes */
+.f10 { font-size: 10px; }
+.f12 { font-size: 12px; }
+.f13 { font-size: 13px; }
+.f14 { font-size: 14px; }
+.f15 { font-size: 15px; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.f25 { font-size: 25px; }
+.f30 { font-size: 30px; }
+.f35 { font-size: 35px; }
+.f40 { font-size: 40px; }
+.f50 { font-size: 50px; }
+
+/* margin-top */
+.mT10 { margin-top: 10px; }
+.mT20 { margin-top: 20px; }
+.mT30 { margin-top: 30px; }
+
+/* margin-left */
+.mL10 { margin-left: 10px; }
+.mL20 { margin-left: 20px; }
+.mL30 { margin-left: 30px; }
+.mL40 { margin-left: 40px; }
+
+/* margin right */
+.mR10 { margin-right: 10px; }
+.mR15 { margin-right: 15px; }
+.mR20 { margin-right: 20px; }
+.mR30 { margin-right: 30px; }
+.mR40 { margin-right: 40px; }
+
+/* margin-bottom */
+.mB10 { margin-bottom: 10px; }
+.mB20 { margin-bottom: 20px; }
+.mB30 { margin-bottom: 30px; }
+.mB40 { margin-bottom: 40px; }
+
+/* padding */
+.pT10 { padding-top: 10px; }
+.pT20 { padding-top: 20px; }
+.pT30 { padding-top: 30px; }
+.pT40 { padding-top: 40px; }
+
+/* sizes */
+.s10 { width: 10px; height: 10px; }
+.s20 { width: 20px; height: 20px; }
+.s25 { width: 25px; height: 25px; }
+.s30 { width: 30px; height: 30px; }
+.s40 { width: 40px; height: 40px; }
+.s45 { width: 45px; height: 45px; }
+
+/* width */
+.w50pe { width: 50%; }
+.w70pe { width: 70%; }
+.w80pe { width: 80%; }
+.w100pe { width: 100%; }
+
+/* position */
+.pos_rel { position: relative; }
+.pos_abs { position: absolute; }
+
+/* text-truncate */
+.truncate { 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+ }

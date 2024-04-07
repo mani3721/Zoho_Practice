@@ -1,0 +1,31 @@
+/* global transition value*/
+:root {
+    --trans: all ease-in-out;
+    --inf-loop: linear infinite;
+    --alt: alternate;
+
+    --one-sec: 0.1s;
+    --two-sec: 0.2s;
+    --three-sec: 0.3s;
+    --four-sec: 0.4s;
+    --five-sec: 0.5s;
+
+    --one-sec-lg: 1s;
+    --two-sec-lg: 2s;
+    --three-sec-lg: 2s;
+
+    --slow-trans: var(--trans) var(--five-sec);
+    --default-trans: var(--trans) var(--three-sec);
+    --fast-trans: var(--trans) var(--two-sec);
+
+    --bounce: bounce var(--two-sec-lg) var(--inf-loop) var(--alt);
+}
+
+/* \\ End of global transition value*/
+
+/* animation bounce */
+@keyframes bounce {
+    to {
+        transform: translateY(-30px);
+    }
+}

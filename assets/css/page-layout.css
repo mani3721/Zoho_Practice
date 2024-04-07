@@ -1,0 +1,86 @@
+/****************************/
+/* HEADER  */
+/****************************/
+
+.page-header {
+    height: var(--h-header);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--h-full);
+}
+
+.logo-container {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    color: var(--c-black);
+}
+
+/* END OF HEADER */
+
+/****************************/
+/* NAVIGATION  */
+/****************************/
+
+.nav-lists {
+    display: flex;
+    gap: 20px;
+}  
+
+.nav-lists .nav-link {
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px 15px;
+    color: var(--c-black);
+    position: relative;
+
+    &[aria-label="New"]::before {
+        content: attr(aria-label);
+        position: absolute;
+        top: -8px;
+        right: 0;
+        padding: 2px 5px;
+        font-size: 9px;
+        color: var(--c-white);
+        background-color: var(--c-secondary);
+        border-radius: var(--br-radius-full);
+    }
+
+    &[aria-label="New"]::after { 
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 13px;
+        border: 5px solid transparent;
+        border-color: var(--c-secondary) transparent transparent transparent;
+    }
+    
+}
+
+.nav-lists .nav-link:hover {
+    color: var(--c-white);
+    transition: var(--default-trans);
+    border-radius: var(--br-radius-full);
+    background-color: var(--c-secondary);
+}
+
+/* END OF NAVBAR */
+
+/****************************/
+/* CONTACT BUTTON  */
+/****************************/
+
+.btn-contact {
+    background-size: 300% 200%;
+    background-image: linear-gradient(to right , var(--c-secondary) , var(--c-purple), var(--c-purple) );
+}
+
+.btn-contact:hover {
+    background-position: -50%;
+}
+
+/* END OF BTN CONTACT */

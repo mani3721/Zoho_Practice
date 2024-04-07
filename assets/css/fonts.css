@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "DM_sans_regular";
+    src: url("../fonts/regular/DMSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "DM_sans_medium";
+    src: url("../fonts/medium/DMSans-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "DM_sans_bold";
+    src: url("../fonts/bold/DMSans-Bold.ttf");
+    font-weight: 600;
+}
+
+:root {
+    --font-regular : DM_sans_regular , "sans-serif";
+    --font-medium : DM_sans_medium , "sans-serif";
+    --font-bold : DM_sans_bold , "sans-serif";
+}
+
+/* common font class */
+.font-regular { font-family: var(--font-regular); }
+.font-medium { font-family: var(--font-medium); }
+.font-bold { font-family: var(--font-bold); }
+
+/* \\End of common font class */
