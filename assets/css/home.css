@@ -29,7 +29,7 @@
     background-position: -100%;
 }
 
-:where(.card-graphic, .card-uiux , .card-motion , .card-web) {
+.card-graphic, .card-uiux , .card-motion , .card-web {
     position: absolute;
     top: 0;
     width: 200px;
