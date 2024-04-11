@@ -18,15 +18,16 @@
 
 body {
     font-family: var(--font-regular);
+    /* color: var(--c-white); */
     /* background-color: var(--c-primary); */
 }
 
 h1 { font-size: 80px; }
-h2 { font-size: 25px; }
-h3 { font-size: 20px; }
-h4 { font-size: 15px; }
+h2 { font-size: 50px; }
+h3 { font-size: 26px; }
+h4 { font-size: 20px; }
 h5 { font-size: 10px; }
-h6 { font-size: 5px; }
+h6 { font-size: 16px; }
 
 ul li { list-style: none; }
 a { text-decoration: none; }
@@ -43,3 +44,12 @@ a:hover { cursor: pointer; }
 }
 
 /* \\END OF CONTAINER */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: var(--br-radius-full);
+    background-image: linear-gradient(to right, var(--c-sky-blue) 10% , var(--c-purple) 30% , var(--c-pink) 100%);
+}

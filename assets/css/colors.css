@@ -9,7 +9,11 @@
     --c-pink: #FF3BD4;
     --c-sky-blue : #12B5DE;
     --c-dark-blue: #0f1021;
+    --c-mint: #d0eadc;
+    --c-teal: #01403d;
+    --c-dark-teal: #006666;
 
     /* shadow colors */
-    --c-gray :
+    /* --c-gray : */
+    --c-light-shadow: rgba(255, 255, 255, 0.20);
 }

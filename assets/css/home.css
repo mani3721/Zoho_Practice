@@ -3,6 +3,10 @@
 /* HERO SECTION */
 /****************************/
 
+.section-hero {
+    padding-bottom: 150px;
+}
+
 .section-hero .hero-container {
     display: flex;
     flex-wrap: wrap;
@@ -67,3 +71,180 @@
 }
 
 /* \\END OF HERO SECTION */
+
+/****************************/
+/* INTEGRATION SECTION */
+/****************************/
+
+.section-integration {
+    margin-top: 200px;
+    padding-block: 100px;
+    background-color: var(--c-mint);
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 82px;
+        left: 0;
+        width: var(--w-full);
+        border-bottom: 1px dashed var(--c-black);
+        z-index: -1;
+    }
+}
+
+.scroll-content {
+    overflow: hidden;
+    --webkit-mask: linear-gradient(to right , transparent , var(--c-mint) 20% , var(--c-mint) 80%, transparent);
+    mask: linear-gradient(to right , transparent , var(--c-mint) 20% , var(--c-mint) 80%, transparent);
+}
+
+.scroll-content[data-animated="true"] .scroll-container {
+    width: fit-content;
+    flex-wrap: nowrap;
+    animation: var(--scroll) var(--animation-direction) ;
+}
+
+.scroll-content[data-direction="left"] {
+    --animation-direction : forwards;
+}
+
+.scroll-content[data-direction="right"] {
+    --animation-direction : reverse;
+}
+
+.scrollable-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-inline: 100px;
+}
+
+.scroll-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-block: 10px;
+}
+
+.scroll-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--c-white);
+    background-image: url(../images/brand-logo.png);
+    background-repeat: no-repeat;
+    background-size: 568px 341px;
+    border-radius: var(--br-radius-full);
+    transition: var(--slow-trans);
+}
+
+/*Brand Logo Shipping  */
+
+.fidex {
+    background-position: -23px -97px;
+}
+
+.dhl {
+    background-position: -249px -97px;
+}
+
+.shiprocket {
+    background-position: -170px -97px;
+}
+
+.ups {
+    background-position: -97px -97px;
+}
+
+.scroll-item:hover {
+    transform: scale(1.2);
+}
+
+/*Brand Logo Payment gateways  */
+
+.paypal {
+    background-position: -23px -22px;
+}
+
+.strip {
+    background-position: -97px -22px;
+}
+
+.authorize {
+    background-position: -172px -22px;
+}
+
+.payu {
+    background-position: -248px -22px;
+}
+
+.razorpay {
+    background-position: -330px -22px;
+}
+
+.paytabs {
+    background-position: -405px -22px;
+}
+
+/* Brand logo Inventory Management */
+
+.inventory {
+    background-position: -170px -162px;
+}
+
+/* \\END OF INTEGRATION SECTION */
+
+/****************************/
+/* SERVICE SECTION */
+/****************************/
+
+.section-service {
+    padding-block: 100px;
+    background-color: var(--c-teal);
+}
+
+.service-description {
+    font-size: 25px;
+    color: var(--c-white);
+}
+
+.service-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-card-container .card {
+    width: 33.33%;
+    padding: 0 15px 30px;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    color: var(--c-white);
+    background-size: 200% 100%;
+    background-color: var(--c-dark-teal);
+    border-radius: var(--br-radius-md);
+}
+
+.service-card-container:hover .service-card {
+    background-image: radial-gradient( 200px circle at var(--mouse-x) var(--mouse-y) , var(--c-dark-teal) .80% , var(--c-light-shadow) 20%  , var(--c-dark-teal) 100% );
+}
+
+
+/* \\END OF SERVICE SECTION */
+
+/****************************/
+/* DELIVERY SECTION */
+/****************************/

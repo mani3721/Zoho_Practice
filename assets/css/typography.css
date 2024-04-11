@@ -1,10 +1,16 @@
 
 /* Large heading style */
-.title-lg { font-size: 10px; }
+.title-lg { 
+    color: var(--c-white);
+ }
 
 /* Medium heading style */
-.title-md { font-size: 10px; }
+.title-md { 
+    color: var(--c-white);
+}
 
 /* Small heading style */
-.title-sm { font-size: 10px; }
+.title-sm { 
+    color: var(--c-secondary);
+ }
 

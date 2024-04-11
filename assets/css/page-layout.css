@@ -61,7 +61,7 @@
     
 }
 
-.nav-lists .nav-link:hover {
+.nav-list.active .nav-link {
     color: var(--c-white);
     transition: var(--default-trans);
     border-radius: var(--br-radius-full);

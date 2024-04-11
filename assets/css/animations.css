@@ -12,13 +12,15 @@
 
     --one-sec-lg: 1s;
     --two-sec-lg: 2s;
-    --three-sec-lg: 2s;
+    --three-sec-lg: 3s;
+
 
     --slow-trans: var(--trans) var(--five-sec);
     --default-trans: var(--trans) var(--three-sec);
     --fast-trans: var(--trans) var(--two-sec);
 
     --bounce: bounce var(--two-sec-lg) var(--inf-loop) var(--alt);
+    --scroll: scroll 20s var(--inf-loop);
 }
 
 /* \\ End of global transition value*/
@@ -28,4 +30,11 @@
     to {
         transform: translateY(-30px);
     }
+}
+
+/* infinite scrolling */
+@keyframes scroll {
+   to {
+    transform: translate(calc(-50% - 75px));
+   }
 }
