@@ -11,6 +11,8 @@
 
 /* Small heading style */
 .title-sm { 
+    font-size: 20px;
+    font-family: var(--font-medium);
     color: var(--c-secondary);
  }
 

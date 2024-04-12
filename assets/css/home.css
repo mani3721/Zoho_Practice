@@ -90,7 +90,7 @@
     &::before {
         content: '';
         position: absolute;
-        top: 82px;
+        top: 70px;
         left: 0;
         width: var(--w-full);
         border-bottom: 1px dashed var(--c-black);
@@ -248,3 +248,28 @@
 /****************************/
 /* DELIVERY SECTION */
 /****************************/
+
+.section-delivery {
+    padding-block: 100px ;
+}
+
+.delivery-description {
+    font-size: 26px;
+}
+
+.delivery-girl-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* \\END OF DELIVERY SECTION */
+
+/****************************/
+/* TRAIN SECTION */
+/****************************/
+
+.section-train {
+    padding-block: 100px;
+    background-color: var(--c-primary);
+}
