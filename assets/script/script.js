@@ -45,9 +45,9 @@ $('.service-card-container').on('mousemove', function(e){
 $(window).scroll(function(){
     const scrollVal = $(window).scrollTop();
     const offset = $('.section-delivery').offset().top;
-    const off = scrollVal - (offset - 200)
-     const min = Math.min(Math.max(off * - 1, -600), 100);
-    if (scrollVal > offset - 200) {
+    const off = scrollVal - offset - 150
+     const min = Math.min(Math.max(off * - 1, -350), 0);
+    if (scrollVal > offset - 150) {
         $('.delivery-girl-img').css("transform", `translateX(${5 + min}px)`)
     }
 })

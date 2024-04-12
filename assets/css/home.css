@@ -273,3 +273,16 @@
     padding-block: 100px;
     background-color: var(--c-primary);
 }
+
+.train-track-img {
+    position: relative;
+    z-index: 10;
+    width: var(--w-full);
+}
+
+.train-img {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    width: 30%;
+}
