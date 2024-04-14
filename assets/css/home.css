@@ -294,4 +294,12 @@
     color: var(--c-white);
 }
 
+.report-card {
+    position: relative;
+    width: 33.33%;
+    padding: 24px;
+    background-color: var(--c-light-shadow);
+    border-radius: var(--br-radius-sm);
+}
+
 /* \\END OF TRAIN SECTION */
