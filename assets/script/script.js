@@ -45,11 +45,22 @@ $('.service-card-container').on('mousemove', function(e){
 $(window).scroll(function(){
     const scrollVal = $(window).scrollTop();
     const offset = $('.section-delivery').offset().top;
-    const off = scrollVal - offset - 150
+    const off = scrollVal - (offset - 200)
      const min = Math.min(Math.max(off * - 1, -350), 0);
-    if (scrollVal > offset - 150) {
+    if (scrollVal > offset - 200) {
         $('.delivery-girl-img').css("transform", `translateX(${5 + min}px)`)
     }
+})
+
+
+// train animation
+
+$(window).scroll(function(){
+    const scrollY = $(window).scrollTop();
+    const offsetTop = $('.section-train').offset().top;
+    const offVal = scrollY - (offsetTop - 200 )
+    if (scrollY > offsetTop - 200) {
+        $('.train-img').css("transform", `translateX(${2 + (offVal) * 1.5 }px)`)    }
 })
 
 

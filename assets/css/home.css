@@ -257,10 +257,13 @@
     font-size: 26px;
 }
 
+.scroll-animate {
+    display: flex;
+    justify-content: space-between;
+}
+
 .delivery-girl-img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    width: 40%;
 }
 
 /* \\END OF DELIVERY SECTION */
@@ -286,3 +289,9 @@
     left: 0;
     width: 30%;
 }
+
+.report-card-container {
+    color: var(--c-white);
+}
+
+/* \\END OF TRAIN SECTION */
