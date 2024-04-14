@@ -60,7 +60,7 @@ $(window).scroll(function(){
     const offsetTop = $('.section-train').offset().top;
     const offVal = scrollY - (offsetTop - 200 )
     if (scrollY > offsetTop - 200) {
-        $('.train-img').css("transform", `translateX(${2 + (offVal) * 1.5 }px)`)    }
+        $('.train-img').css("transform", `translateX(${ 1 + (offVal) * 1.5 }px)`)    }
 })
 
 

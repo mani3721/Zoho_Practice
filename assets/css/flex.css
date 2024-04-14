@@ -3,7 +3,8 @@
 .fD-C { flex-direction: column; }
 .jC-C { justify-content: center; }
 .jC-FS { justify-content: flex-start; }
-.jc-FE { justify-content: flex-end; }
+.jC-FE { justify-content: flex-end; }
+.jC-SP { justify-content: space-between; }
 
 /* align items */
 .al-S { align-items: start; }
